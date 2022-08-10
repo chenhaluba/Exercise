@@ -1,0 +1,90 @@
+.headerClock{
+    text-align: center;
+    font: 15px Arial, sans-serif;
+    font-size: 35px;
+    background-color:rgb(12 74 110) ;
+    color:white;
+    display: flex;
+    width: max-content;
+    margin: auto;
+    margin-top: 40px;
+}
+.clock{
+    text-align: center;
+    font: 15px Arial, sans-serif;
+    font-size: 35px;
+    display: flex;
+    width: max-content;
+    border: 2px solid;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.numbers{
+    font: 15px Arial, sans-serif;
+    font-size: 35px;
+    width: max-content;
+    border: 2px solid;
+    margin: auto;
+   margin-top: 30px;
+}
+.buttons{
+    margin-left: 40%;
+}
+.btn{
+    background-color:rgb(7 89 133);
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    margin: 2px;
+    height: 35px;
+
+}
+.btn:hover{
+    background-color: #0C4A7D;
+}
+
+.countDownDiv{
+    font: 15px Arial, sans-serif;
+    font-size: 35px;
+    width: 270px;
+    border: 2px solid;
+    margin: auto;
+   margin-top: 30px;
+}
+
+.divTimer{
+    font: 15px Arial, sans-serif;
+    font-size: 20px;
+    margin-left: 35%;
+   margin-top: 30px;
+}
+.btnTimer{
+    background-color:rgb(7 89 133);
+    color: white;
+    border-radius: 10px;
+    width: 110px;
+    height: 35px;
+    bottom: 30px;
+    position: absolute;
+}
+.btnTimer:hover{
+    background-color: #0C4A7D;
+}
+
+.inputTimer{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    line-height: 1.2;
+    border: 1px solid black;
+    border-radius:15px;
+    height: 20px;
+    margin-left: 7px;
+    padding-left: 4px;
+    margin-right: 7px;
+    padding-right: 4px;
+    width: 180px;
+    margin-top: 20px;
+}
+
+
